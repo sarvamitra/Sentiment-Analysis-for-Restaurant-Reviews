@@ -57,9 +57,9 @@ Classification Accuracy is what we usually mean when we use the term accuracy. I
 * Confusion Matrix:
 A confusion matrix is a table that is often used to describe the performance of a classification model (or "classifier") on a set of test data for which the true values are known. 
 i) There are two possible predicted classes: "yes" and "no". If we were predicting the presence of a disease, for example, "yes" would mean they have the disease, and "no" would mean they don't have the disease.
-ii) The classifier made a total of 165 predictions (e.g., 165 patients were being tested for the presence of that disease).
-iii) Out of those 165 cases, the classifier predicted "yes" 110 times, and "no" 55 times.
-iv) In reality, 105 patients in the sample have the disease, and 60 patients do not.
+ii) The classifier made a total of 200 predictions (e.g., 200 patients were being tested for the presence of that disease).
+iii) Out of those 200 cases, the classifier predicted "yes" 106 times, and "no" 94 times.
+iv) In reality, 103 patients in the sample have the disease, and 97 patients do not.
 	* true positives (TP): These are cases in which we predicted yes (they have the disease), and they do have the disease.
 	* true negatives (TN): We predicted no, and they don't have the disease.
 	* false positives (FP): We predicted yes, but they don't have the disease. (Also known as a "Type I error.")
@@ -93,7 +93,7 @@ i) Multinomial Naive Bayes:
 Using the PorterStemmer method stem I shorten the lookup and Normalized the sentences.
 Then stored those words which are not a stopword or any English punctuation. 
 
-* Secondly, I used CountVectorizer for vectorization. Also used fit and transform to fit and transform the model. The maximum features were 1500.
+* Secondly, I used CountVectorizer for vectorization. Also used fit and transform to fit and transform the model. The maximum features were 1000.
 
 * The next step was Training and Classification. Using train_test_split 20% of data was used for testing and remaining was used for training. The data were trained on the Multinomial Naive Baye algorithms mentioned above. 
 
