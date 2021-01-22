@@ -71,7 +71,7 @@ iv) In reality, 103 patients in the sample have the disease, and 97 patients do 
 
 ### 3.2 Result
 
-All of the 3 mentioned machine learning models are very measured on the above-mentioned metrics. The result of the evaluation of the metrics of the machine learning models is mentioned below:
+The result of the evaluation of the metrics of the machine learning models is mentioned below:
 
 i) Multinomial Naive Bayes:
 
